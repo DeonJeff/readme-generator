@@ -13,17 +13,17 @@ inquirer
       {
         type: 'input' .
         name: 'description'  ,
-        message: ' what is the description of your project '
+        message: ' write a description of your project '
+    },
+    {
+        type: 'list' .
+        name: 'table of contents'  ,
+        choices: [ '' ]
     },
     {
         type: 'input' .
-        name: 'name'  ,
-        message: ''
-    },
-    {
-        type: 'input' .
-        name: 'name'  ,
-        message: ''
+        name: 'installation'  ,
+        message: ' describe the installation'
     },
     {
         type: 'input' .
