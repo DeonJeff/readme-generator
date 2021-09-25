@@ -63,7 +63,9 @@ inquirer
         name: ' email ' ,
         message: ' please enter your email:'
     }
-]);
+])
+
+   .then(function(data) {
 
 // TODO: Create a function to write README file
 fs.writeFile(fileName, JSON.stringify(data, null, '\t'),(err) {
@@ -72,5 +74,14 @@ fs.writeFile(fileName, JSON.stringify(data, null, '\t'),(err) {
         return console.log(err);
       }
 
-      console.log('Success!');
+      console.log('It Works!');
     });
+
+    // TODO: Create a function to initialize app
+function init() {}
+
+
+
+
+    // Function call to initialize app
+init();
