@@ -6,8 +6,8 @@ inquirer
   .prompt([
       {
           type: 'input' .
-          name: 'name'  ,
-          message: ''
+          name: 'project tittle'  ,
+          message: ' What id the Project Tittle'
       },
       
       {
