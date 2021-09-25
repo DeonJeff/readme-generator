@@ -63,5 +63,14 @@ inquirer
         name: ' email ' ,
         message: ' please enter your email:'
     }
+]);
 
-  ]);
+// TODO: Create a function to write README file
+fs.writeFile(fileName, JSON.stringify(data, null, '\t'),(err) {
+   
+    if (err) {
+        return console.log(err);
+      }
+
+      console.log('Success!');
+    });
