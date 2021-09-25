@@ -7,28 +7,29 @@ inquirer
       {
           type: 'input' ,
           name: 'project tittle'  ,
-          message: ' What is the Project Tittle'
+          message: ' What is the Project Tittle? '
       },
       
       {
         type: 'input' ,
         name: 'description'  ,
-        message: ' write a description of your project '
+        message: ' write a description of your project: '
     },
     {
         type: 'list' ,
         name: 'table of contents'  ,
-        choices: [ '' ]
+        choices: [  'installation' , 'usage' , 'license'  , 'contributing'  , 
+                     'tests'  ,'questions'  ,  ]
     },
     {
         type: 'input' ,
         name: 'installation'  ,
-        message: ' describe the installation'
+        message: ' describe the installation: '
     },
     {
         type: 'input' ,
         name:  'usage'  ,
-        message: ' What is the project used for'
+        message: ' What is the project used for? '
     },
     {
         type: 'list' ,
@@ -43,12 +44,12 @@ inquirer
     },
     {
         type: 'input' ,
-        name: 'name'  ,
-        message: ''
+        name: 'tests'  ,
+        message: ' is there a test included?'
     },
     {
         type: 'input' ,
-        name: 'name'  ,
+        name: 'questions'  ,
         message: ''
     },
   ]) 
