@@ -5,49 +5,49 @@ const inquirer = require('inquirer');
 inquirer
   .prompt([
       {
-          type: 'input' .
+          type: 'input' ,
           name: 'project tittle'  ,
           message: ' What is the Project Tittle'
       },
       
       {
-        type: 'input' .
+        type: 'input' ,
         name: 'description'  ,
         message: ' write a description of your project '
     },
     {
-        type: 'list' .
+        type: 'list' ,
         name: 'table of contents'  ,
         choices: [ '' ]
     },
     {
-        type: 'input' .
+        type: 'input' ,
         name: 'installation'  ,
         message: ' describe the installation'
     },
     {
-        type: 'input' .
-        name:'' 'usage'  ,
+        type: 'input' ,
+        name:  'usage'  ,
         message: ' What is the project used for'
     },
     {
-        type: 'list' .
+        type: 'list' ,
         name: 'license'  ,
         message: ' Chose the appropriate license for this project:' ,
         choices: [ ' ' ]
     },
     {
-        type: 'input' .
+        type: 'input' ,
+        name: 'contributing'  ,
+        message: ' who is contributing to this project? '
+    },
+    {
+        type: 'input' ,
         name: 'name'  ,
         message: ''
     },
     {
-        type: 'input' .
-        name: 'name'  ,
-        message: ''
-    },
-    {
-        type: 'input' .
+        type: 'input' ,
         name: 'name'  ,
         message: ''
     },
