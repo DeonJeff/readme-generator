@@ -1,5 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 inquirer
@@ -50,6 +51,17 @@ inquirer
     {
         type: 'input' ,
         name: 'questions'  ,
-        message: ''
+        message: ' do you have any questions? '
     },
-  ]) 
+    {
+        type: 'input' ,
+        name: ' username' ,
+        message: ' please enter your GitHub username:'
+    },
+    {
+        type: ' input ' ,
+        name: ' email ' ,
+        message: ' please enter your email:'
+    }
+
+  ]);
