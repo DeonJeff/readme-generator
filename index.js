@@ -7,13 +7,13 @@ inquirer
       {
           type: 'input' .
           name: 'project tittle'  ,
-          message: ' What id the Project Tittle'
+          message: ' What is the Project Tittle'
       },
       
       {
         type: 'input' .
-        name: 'name'  ,
-        message: ''
+        name: 'description'  ,
+        message: ' what is the description of your project '
     },
     {
         type: 'input' .
