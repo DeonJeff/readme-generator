@@ -27,13 +27,14 @@ inquirer
     },
     {
         type: 'input' .
-        name: 'name'  ,
-        message: ''
+        name:'' 'usage'  ,
+        message: ' What is the project used for'
     },
     {
-        type: 'input' .
-        name: 'name'  ,
-        message: ''
+        type: 'list' .
+        name: 'license'  ,
+        message: ' Chose the appropriate license for this project:' ,
+        choices: [ ' ' ]
     },
     {
         type: 'input' .
